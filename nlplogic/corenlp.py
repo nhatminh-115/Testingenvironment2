@@ -2,7 +2,7 @@ from textblob import TextBlob
 import wikipedia
 
 def search(name):
-    print(f"Searching for {{name}}")
+    print(f"Searching for {name}")
     return wikipedia.search(name)
 
 def summary(name):
